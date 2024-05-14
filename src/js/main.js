@@ -1,13 +1,13 @@
 function findPerimeter() {
-    const length = document.getElementById("length").value;
+    const height = document.getElementById("height").value;
     const width = document.getElementById("width").value;
-    const perimeter = 2 * (parseInt(length) + parseInt(width));
+    const perimeter = 2 * (parseInt(height) + parseInt(width));
     document.getElementById("result").innerText = `Perimeter of the square is: ${perimeter}`;
 }
 
 function findArea() {
-    const length = document.getElementById("length").value;
+    const height = document.getElementById("height").value;
     const width = document.getElementById("width").value;
-    const area = parseInt(length) * parseInt(width);
+    const area = parseInt(height) * parseInt(width);
     document.getElementById("result").innerText = `Area of the square is: ${area}`;
 }
